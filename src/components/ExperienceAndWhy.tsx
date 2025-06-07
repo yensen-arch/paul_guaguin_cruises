@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Polynesian-Inspired Hospitality",
-  description: "Experience the warmth of the South Pacific with onboard Polynesian hosts, enriching cultural programs, and local entertainment.",
+  title: "South Pacific Specialists",
+  description: "Designed to sail Tahiti, Fiji, and French Polynesia with insider access and island flair.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "All-Inclusive Luxury",
-  description: "Enjoy gourmet dining, complimentary beverages, 24-hour room service, and gratuities included in your fare.",
+  title: "Private Island Experiences",
+  description: "Guests enjoy exclusive access to private motus and beach days with BBQ and water sports.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Adventure at Your Fingertips",
-  description: "Take advantage of the ship's watersports marina for kayaking, paddleboarding, and snorkeling directly from the vessel.",
+  title: "Polynesian Hospitality",
+  description: "Warm, local staff known as Les Gauguins offer cultural performances and personalized service.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Intimate Exploration",
-  description: "With a capacity of just 330 guests, the Paul Gauguin offers personalized service and the ability to navigate narrow lagoons and remote islands.",
+  title: "Boutique Ship Comfort",
+  description: "All oceanview staterooms with spacious decks and luxury amenities throughout the ship.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Paul Gauguin Cruises Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
